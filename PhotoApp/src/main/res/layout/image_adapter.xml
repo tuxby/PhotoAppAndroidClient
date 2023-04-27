@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="180dp">
+
+    <ImageView
+        android:id="@+id/AdapterAct_ImageView"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="6dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/AdapterAct_TextViewLogin"
+        android:layout_width="200dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="16dp"
+        android:textColor="@color/purple_500"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/AdapterAct_TextViewName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/AdapterAct_EditTextDisc"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="16dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AdapterAct_TextViewName" />
+
+    <TextView
+        android:id="@+id/AdapterAct_TextViewName"
+        android:layout_width="200dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="16dp"
+        android:textColor="@color/purple_500"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/AdapterAct_EditTextDisc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AdapterAct_TextViewLogin" />
+
+    <TextView
+        android:id="@+id/AdapterAct_TextViewDate"
+        android:layout_width="200dp"
+        android:layout_height="17dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="6dp"
+        android:textAlignment="textEnd"
+        android:textColor="#0277BD"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

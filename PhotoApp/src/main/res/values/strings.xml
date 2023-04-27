@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">PhotoApp</string>
+
+
+    <!--MainActivity-->
+    <string name="MainAct_ButtonEditProfile">Изменить профиль</string>
+    <string name="MainAct_ButtonMyPhotos">Мои фото</string>
+    <string name="MainAct_ButtonAllPhotos">Фото пользователей</string>
+    <string name="MainAct_ButtonAddPhoto">Добавить фото</string>
+    <string name="MainAct_ButtonLogout">Выйти из аккаунта</string>
+    <string name="MainAct_TextViewLogin">Логин</string>
+    <string name="MainAct_TextViewName">Имя</string>
+
+    <string name="MainAct_ButtonLogout_AlertTitle">Выход из профиля</string>
+    <string name="MainAct_ButtonLogout_AlertMessage">После выхода, вам необходимо будет войти с помощью логина и пароля, или повторно зарегистрироваться</string>
+    <string name="MainAct_ButtonLogout_AlertYes">Да</string>
+    <string name="MainAct_ButtonLogout_AlertNo">Нет</string>
+
+
+    <!--EditProfileActivity-->
+    <string name="EditProfileAct_ButtonClearAvatar">Убрать фото</string>
+    <string name="EditProfileAct_ButtonSave">Мои фото</string>
+
+    <!--LoginActivity-->
+    <string name="LoginAct_ButtonLogin">Войти</string>
+    <string name="LoginAct_EditTextLogin">Введите логин</string>
+    <string name="LoginAct_EditTextPassword">Введите пароль</string>
+
+    <!--RegistrationActivity-->
+    <string name="RegistrationAct_EditTextLogin">Логин</string>
+    <string name="RegistrationAct_EditTextName">Имя</string>
+    <string name="RegistrationAct_EditTextDisc">Описание</string>
+
+    <!--AddPhotoActivity-->
+    <string name="AddPhotoAct_ButtonAddImage">Добавить изображение</string>
+    <string name="AddPhotoAct_EditTextDisc">Описание</string>
+
+
+
+
+    <string name="enter_name">Введите имя</string>
+    <string name="enter_lastName">Введите фамилию</string>
+    <string name="enter_login">Введите логин</string>
+    <string name="enter_password">Введите пароль</string>
+    <string name="enter_password_again">Повторите пароль</string>
+
+    <string name="not_equal_passwords">Пароли не совпадают</string>
+    <string name="not_correct_passwords">Пароль не соответствует требованиям</string>
+    <string name="not_correct_login">Логин занят</string>
+
+    <string name="register">Зарегистрироваться</string>
+    <string name="login">Войти</string>
+    <string name="not_correct_loginization">Некоретный данные</string>
+
+    <string name="edit_profile">Изменить профиль</string>
+    <string name="my_photos">Мои фото</string>
+    <string name="others_photos">Фото пользователей</string>
+
+    <string name="save">Сохранить</string>
+
+    <string name="add_photo">Добавить фото</string>
+
+    <string name="clear_photo">Убрать фото</string>
+
+    <string name="defaultAvatar">defaultAvatar</string>
+
+</resources>
