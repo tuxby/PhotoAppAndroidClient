@@ -1,5 +1,6 @@
 <h2>PhotoApp Android Client - андроид приложение для публикации изображений<h2>
 <br>
+<a href="https://github.com/tuxby/PhotoAppAndroidClient/releases/tag/PhotoAppAndroidClient"> Download APK </a>
 <span>
 Demo user:<br>
 username - user<br>
